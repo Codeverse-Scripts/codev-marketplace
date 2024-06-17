@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CODEV MARKETPLACE</title>
+</head>
+<body>
+    <main>
+        <div class="header">
+            <div class="buttons">
+                <div class="button"></div>
+                <div class="button"></div>
+                <div class="button"></div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="pop-up-wrapper">
+                <div class="pop-up" id="item-select">
+                    <div class="close-btn btn">
+                        <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.219754 0.219754C0.289319 0.15009 0.371936 0.094824 0.462878 0.0571165C0.553821 0.019409 0.651305 0 0.749754 0C0.848204 0 0.945688 0.019409 1.03663 0.0571165C1.12757 0.094824 1.21019 0.15009 1.27975 0.219754L3.99975 2.93875L6.71975 0.219754C6.78936 0.150154 6.87198 0.0949436 6.96292 0.057276C7.05386 0.0196084 7.15132 0.000221254 7.24975 0.000221252C7.34818 0.000221251 7.44565 0.0196084 7.53659 0.057276C7.62753 0.0949436 7.71015 0.150154 7.77975 0.219754C7.84935 0.289355 7.90456 0.371983 7.94223 0.46292C7.9799 0.553858 7.99929 0.651324 7.99929 0.749754C7.99929 0.848185 7.9799 0.945651 7.94223 1.03659C7.90456 1.12753 7.84935 1.21015 7.77975 1.27975L5.06075 3.99975L7.77975 6.71975C7.92032 6.86032 7.99929 7.05097 7.99929 7.24975C7.99929 7.44854 7.92032 7.63919 7.77975 7.77975C7.63919 7.92032 7.44854 7.99929 7.24975 7.99929C7.05097 7.99929 6.86032 7.92032 6.71975 7.77975L3.99975 5.06075L1.27975 7.77975C1.13919 7.92032 0.948543 7.99929 0.749754 7.99929C0.550966 7.99929 0.360319 7.92032 0.219754 7.77975C0.0791897 7.63919 0.000221252 7.44854 0.000221252 7.24975C0.000221252 7.05097 0.0791897 6.86032 0.219754 6.71975L2.93875 3.99975L0.219754 1.27975C0.15009 1.21019 0.094824 1.12757 0.0571165 1.03663C0.019409 0.945688 0 0.848204 0 0.749754C0 0.651305 0.019409 0.553821 0.0571165 0.462878C0.094824 0.371936 0.15009 0.289319 0.219754 0.219754Z" fill="white"/>
+                        </svg>
+                    </div>
+
+                    <div class="header-wrapper">
+                        <div class="image">
+                            <img src="assets/img/temp-item.png">
+                        </div>
+                        <div class="title-content">
+                            <div class="name">ADD ITEM</div>
+                            <div class="desc">SELECT THE ITEM THAT YOU WANT TO SELL</div>
+                        </div>
+                    </div>
+
+                    <div class="items-wrapper">
+                        <div class="item">
+                            <div class="item-image">
+                                <img src="assets/img/temp-item-2.png">
+                            </div>
+    
+                            <div class="item-name">Item Name</div>
+                            <div class="btn">SELECT</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pop-up" id="item-sell">
+                    <div class="back-btn btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="7" height="10" viewBox="0 0 7 10" fill="none">
+                            <path d="M7 9.49964L7 0.499382C6.99973 0.408259 6.97623 0.318939 6.93203 0.241037C6.88784 0.163134 6.82461 0.0995995 6.74916 0.0572717C6.67371 0.0149438 6.5889 -0.00457506 6.50385 0.000817015C6.4188 0.00620814 6.33674 0.0363061 6.26649 0.0878703L0.188987 4.588C-0.0629959 4.7745 -0.0629959 5.22352 0.188987 5.41052L6.26649 9.91065C6.33659 9.96274 6.41869 9.99328 6.50389 9.99897C6.58908 10.0047 6.67409 9.98526 6.7497 9.94289C6.82531 9.90053 6.88862 9.83681 6.93275 9.75866C6.97687 9.68052 7.00013 9.59093 7 9.49964Z" fill="white"/>
+                        </svg>
+                    </div>
+
+                    <div class="header-wrapper">
+                        <div class="image">
+                            <img src="assets/img/temp-item.png">
+                        </div>
+                        <div class="title-content">
+                            <div class="name">ADD ITEM</div>
+                            <div class="desc">SELECT THE ITEM THAT YOU WANT TO SELL</div>
+                        </div>
+                    </div>
+
+                    <div class="content-wrapper">
+                        <div class="item full">
+                            <div class="item-image">
+                                <img src="assets/img/temp-item-2.png">
+                            </div>
+    
+                            <div class="item-name">Item Name</div>
+                        </div>
+
+                        <div class="input-wrapper">
+                            <div class="input">
+                                <div class="title">PRICE</div>
+                                <input type="number" min="0" required id="price-input">
+                            </div>
+                            <div class="input">
+                                <div class="title">AMOUNT</div>
+                                <input type="number" min="0" required id="amount-input">
+                                <div class="value-box" id="val-box-1"><span>1</span>X</div>
+                            </div>
+
+                            <div class="btn sell-confirm">SELL</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pop-up" id="item-buy">
+                    <div class="close-btn btn">
+                        <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.219754 0.219754C0.289319 0.15009 0.371936 0.094824 0.462878 0.0571165C0.553821 0.019409 0.651305 0 0.749754 0C0.848204 0 0.945688 0.019409 1.03663 0.0571165C1.12757 0.094824 1.21019 0.15009 1.27975 0.219754L3.99975 2.93875L6.71975 0.219754C6.78936 0.150154 6.87198 0.0949436 6.96292 0.057276C7.05386 0.0196084 7.15132 0.000221254 7.24975 0.000221252C7.34818 0.000221251 7.44565 0.0196084 7.53659 0.057276C7.62753 0.0949436 7.71015 0.150154 7.77975 0.219754C7.84935 0.289355 7.90456 0.371983 7.94223 0.46292C7.9799 0.553858 7.99929 0.651324 7.99929 0.749754C7.99929 0.848185 7.9799 0.945651 7.94223 1.03659C7.90456 1.12753 7.84935 1.21015 7.77975 1.27975L5.06075 3.99975L7.77975 6.71975C7.92032 6.86032 7.99929 7.05097 7.99929 7.24975C7.99929 7.44854 7.92032 7.63919 7.77975 7.77975C7.63919 7.92032 7.44854 7.99929 7.24975 7.99929C7.05097 7.99929 6.86032 7.92032 6.71975 7.77975L3.99975 5.06075L1.27975 7.77975C1.13919 7.92032 0.948543 7.99929 0.749754 7.99929C0.550966 7.99929 0.360319 7.92032 0.219754 7.77975C0.0791897 7.63919 0.000221252 7.44854 0.000221252 7.24975C0.000221252 7.05097 0.0791897 6.86032 0.219754 6.71975L2.93875 3.99975L0.219754 1.27975C0.15009 1.21019 0.094824 1.12757 0.0571165 1.03663C0.019409 0.945688 0 0.848204 0 0.749754C0 0.651305 0.019409 0.553821 0.0571165 0.462878C0.094824 0.371936 0.15009 0.289319 0.219754 0.219754Z" fill="white"/>
+                        </svg>
+                    </div>
+
+                    <div class="header-wrapper">
+                        <div class="image">
+                            <img src="assets/img/temp-item.png">
+                        </div>
+                        <div class="title-content">
+                            <div class="name">PURCHASE ITEM</div>
+                            <div class="desc">PURCHASE THIS ITEM</div>
+                        </div>
+                    </div>
+
+                    <div class="content-wrapper">
+                        <div class="item full">
+                            <div class="item-image">
+                                <img src="assets/img/temp-item-2.png">
+                            </div>
+    
+                            <div class="item-name">Item Name</div>
+                        </div>
+
+                        <div class="input-wrapper">
+                            <div class="input">
+                                <div class="title">PRICE</div>
+                                <input type="text" min="0" required id="price-input-2" disabled>
+                            </div>
+                            <div class="input">
+                                <div class="title">AMOUNT</div>
+                                <input type="number" min="0" required id="amount-input-2">
+                                <div class="value-box" id="val-box-2"><span>1</span>X</div>
+                            </div>
+
+                            <div class="btn buy-confirm">PURCHASE</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-bar">
+                <div class="categories"></div>
+                <div class="btn-wrapper">
+                    <div class="sell-btn" id="sell-pop-btn">SELL AN ITEM</div>
+                </div>
+            </div>
+
+            <div class="items-wrapper">
+                <div class="search-bar">
+                    <input type="text" id="search-bar" placeholder="Search Item">
+                    <img src="assets/img/search.png">
+                </div>
+                <div class="items" id="main-items"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
